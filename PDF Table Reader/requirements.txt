@@ -1,1 +1,4 @@
 pdfplumber
+io
+zipfile
+pandas
