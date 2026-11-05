@@ -1,3 +1,5 @@
+streamlit
 pdfplumber
 zipfile
 pandas
+io
