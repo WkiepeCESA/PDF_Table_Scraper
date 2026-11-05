@@ -30,7 +30,7 @@ if uploaded_filed is not None:
                     df = pd.DataFrame(table[1:], columns=table[0])
                     dfs_list.append(df)
                     table_name = df.columns[0].replace(" ", "_")
-                    table_name = df.columns[0].replace("/", "_")
+                    table_name = table_name.replace("/", "_")
                     table_names.append(f"{table_name}.csv")
 
     st.write(f"Tables extracted: {len(dfs_list)}")
