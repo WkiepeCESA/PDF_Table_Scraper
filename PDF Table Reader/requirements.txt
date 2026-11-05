@@ -1,4 +1,3 @@
 pdfplumber
-io
 zipfile
 pandas
